@@ -1,0 +1,57 @@
+{
+  "project_info": {
+    "project_number": "280650926124",
+    "firebase_url": "https://dalililastproject.firebaseio.com",
+    "project_id": "dalililastproject",
+    "storage_bucket": "dalililastproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280650926124:android:a58608ab5283c248",
+        "android_client_info": {
+          "package_name": "com.dalililastproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280650926124-q3igis3v9nrk5sqbb82rv71d2v2ur155.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dalililastproject",
+            "certificate_hash": "49de33ece4d4101d4963300418ec9e7c053fea58"
+          }
+        },
+        {
+          "client_id": "280650926124-r42olhshea23d092vm51j36fl72iivbj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dalililastproject",
+            "certificate_hash": "82523617e5be84c8ee760b48b3d800bfb2d3231f"
+          }
+        },
+        {
+          "client_id": "280650926124-3jf18s6oln8vt3hsb6stvoptv9jpnnr4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaaYCpQWG6KYUI1fxYo5AKn3RghVLeUww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "280650926124-3jf18s6oln8vt3hsb6stvoptv9jpnnr4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-4754692842325949~1507430356"
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Yemen Universities</string>
+    <string name="btn1_name">Government</string>
+    <string name="btn2_name">Private</string>
+
+
+<!--
+
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="app_ad_unit_id">ca-app-pub-3940256099942544~3347511713</string>
+-->
+
+
+
+
+
+
+    <string name="banner_ad_unit_id">ca-app-pub-4754692842325949/1493728733</string>
+    <string name="app_ad_unit_id">ca-app-pub-4754692842325949~1507430356</string>
+
+</resources>

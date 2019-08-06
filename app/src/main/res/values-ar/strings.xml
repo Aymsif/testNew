@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="app_name">الجامعات اليمنية</string>
+    <string name="btn1_name">حكومي</string>
+    <string name="btn2_name">خاص</string>
+  <!--  <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="app_ad_unit_id">ca-app-pub-3940256099942544~3347511713</string>
+-->
+    <string name="banner_ad_unit_id">ca-app-pub-4754692842325949/1493728733</string>
+    <string name="app_ad_unit_id">ca-app-pub-4754692842325949~1507430356</string>
+</resources>

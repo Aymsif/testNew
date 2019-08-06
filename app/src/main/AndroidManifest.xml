@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.dalililastproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <application
+        android:name=".GlobalV"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_ysg"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_ysg"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning"
+        android:fullBackupContent="true">
+
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/app_ad_unit_id" />
+
+        <activity android:name=".Universities_about" />
+        <activity
+            android:name=".Universities"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Faculties" />
+        <activity
+            android:name=".Departments"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
