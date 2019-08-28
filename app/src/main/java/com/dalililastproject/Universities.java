@@ -19,6 +19,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.ArrayList;
+import java.util.Locale;
 
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdLoader;
@@ -77,7 +78,13 @@ public class Universities extends AppCompatActivity {
         recyclerView.setHasFixedSize(true);
         // recyclerView.setItemAnimator(new DefaultItemAnimator());
         data = new ArrayList<DataModel>();
-        data=db_helper.get_universities_data(id);
+
+        String lang= Locale.getDefault().getLanguage();
+        if (lang!="ar"){
+            data=db_helper.get_universities_data(id,"en");
+        }else {data=db_helper.get_universities_data(id,"ar");}
+
+
 
         mAdView = findViewById(R.id.adView);
         adRequest = new AdRequest.Builder().build();

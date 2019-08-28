@@ -15,6 +15,8 @@ import com.google.android.gms.ads.InterstitialAd;
 import com.google.firebase.analytics.FirebaseAnalytics;
 import com.dalililastproject.R;
 
+import java.util.Locale;
+
 public class MainActivity extends AppCompatActivity {
     private FirebaseAnalytics mFirebaseAnalytics;
     private static final String TAG = "MainActivity";
@@ -25,6 +27,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+
         mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
 
 

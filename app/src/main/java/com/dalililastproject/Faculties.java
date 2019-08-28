@@ -33,6 +33,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.ArrayList;
+import java.util.Locale;
+
 import com.dalililastproject.R;
 public class Faculties extends AppCompatActivity {
     RecyclerView.Adapter adapter;
@@ -72,7 +74,16 @@ public class Faculties extends AppCompatActivity {
         recyclerView.setHasFixedSize(true);
         // recyclerView.setItemAnimator(new DefaultItemAnimator());
         data = new ArrayList<DataModel>();
-        data = db_helper.get_faculties_data(id);
+
+        String lang= Locale.getDefault().getLanguage();
+        if (lang!="ar"){
+            data = db_helper.get_faculties_data(id,"en");
+
+        }else {
+            data = db_helper.get_faculties_data(id,"ar");
+
+        }
+
 
 
         // data.add(data.size(), dataModel2);

@@ -10,6 +10,8 @@ import android.widget.TextView;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
+import java.util.Locale;
+
 import com.dalililastproject.R;
 public class Universities_about extends AppCompatActivity {
     ImageView imageView;
@@ -30,7 +32,16 @@ public class Universities_about extends AppCompatActivity {
         dataModels=new ArrayList<DataModel>();
         title=findViewById(R.id.textViewName_desc);
         info=findViewById(R.id.textViewDisc_desc);
-        dataModels=db_helper.get_universities_info(id);
+
+        String lang= Locale.getDefault().getLanguage();
+        if (lang!="ar"){
+            dataModels=db_helper.get_universities_info(id,"en");
+
+        }else {
+            dataModels=db_helper.get_universities_info(id,"ar");
+
+        }
+
         InputStream ims = null;
         try {
             ims = this.getAssets().open(dataModels.get(0).getImage());

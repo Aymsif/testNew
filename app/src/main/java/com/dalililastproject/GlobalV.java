@@ -1,18 +1,20 @@
 package com.dalililastproject;
 
 import android.app.Application;
+import android.widget.Toast;
 
 import com.dalililastproject.R;
 import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.ads.initialization.InitializationStatus;
 import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 
+import java.util.Locale;
+
 public class GlobalV extends Application {
 
     @Override
     public void onCreate() {
         super.onCreate();
-
 
         MobileAds.initialize(this, new OnInitializationCompleteListener() {
             @Override

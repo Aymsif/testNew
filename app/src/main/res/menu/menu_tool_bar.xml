@@ -4,7 +4,7 @@
     >
     <item
         android:id="@+id/about"
-        android:title="نبذه عن الجامعة"
+        android:title="@string/about_Univer"
         app:showAsAction="ifRoom"
         />
 </menu>
